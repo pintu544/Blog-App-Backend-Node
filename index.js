@@ -9,7 +9,7 @@ const blogRoutes = require('./routes/blogRoutes');
 
 const app = express();
 // ******************  Enable CORS  ********************//
-app.use(cors());
+app.use(cors("https://my-blog-app-testing.netlify.app"));
 
 // ************************  Database Connection  **********************************//
 connectMonggose();
